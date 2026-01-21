@@ -1,7 +1,7 @@
-const express = require("express");
-const cors = require("cors");
-const Stripe = require("stripe");
-const { createClient } = require("@supabase/supabase-js");
+import express from "express";
+import cors from "cors";
+import Stripe from "stripe";
+import { createClient } from "@supabase/supabase-js";
 
 const app = express();
 app.use(cors());
